@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", "sans-serif";
+  box-sizing: border-box;
+}
+
+.todo-app {
+  background: #cf3b3b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 500px;
+  width: 450px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.display h2 {
+  padding: 25px 0;
+  color: #000000;
+  font-size: 35px;
+}
+.text-area {
+  display: flex;
+}
+.addTask-field {
+  height: 45px;
+  width: 300px;
+  border-radius: 20px;
+  border: none;
+  background: #dbd7d7;
+  padding: 10px 20px;
+  outline: none;
+  font-size: 15px;
+}
+.add-btn {
+  height: 45px;
+  width: 80px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #cf3b3b;
+  margin-left: -60px;
+  font-size: 15px;
+  color: #fff;
+  transition: transform 0.1 ease;
+}
+.add-btn:active {
+  transform: scale(0.9);
+}
+
+.task-display {
+  display: flex;
+  margin-top: 50px;
+  margin-left: -32px;
+}
+
+.added-task {
+  margin-left: 10px;
+  width: 300px;
+  text-align: left;
+}
+
+.delete-btn {
+  margin-left: 40px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1 ease;
+}
+.delete-btn:active {
+    transform: scale(0.9);
+}
